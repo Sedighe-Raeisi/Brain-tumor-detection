@@ -38,7 +38,17 @@ An example of this augmentation is placed bellow:
 
 Then I repeated the model training:    
 
-![image](https://user-images.githubusercontent.com/67642255/142823541-1f9c6eb6-0b0c-4e8f-8884-e55f9807395a.png)
+![image](https://user-images.githubusercontent.com/67642255/142823541-1f9c6eb6-0b0c-4e8f-8884-e55f9807395a.png)    
+
+# Use a Pretrained Architecture VGG16
+
+I used a pretrained model, VGG16, I freezed it and then I added one dense layer and a sigmoid classifier layer. 
+I trined it for 100 epochs.   
+
+![image](https://user-images.githubusercontent.com/67642255/142824937-fee4065f-e2ee-48cd-9c79-4f22b56bab15.png)    
+
+The best achieved accuracy for validation during training was 0.94
+
 
 
 
